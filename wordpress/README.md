@@ -1,4 +1,4 @@
-# NGINX Static File Server
+# Wordpress
 
 ## Instructions
 
@@ -6,14 +6,12 @@
 
 ```sh
 git clone git@github.com:alamansky/starters.git
-cd starters/nginx-static-file-server
+cd starters/wordpress
 ```
 
 2. Open `.env` and populate environment variables according to the comments.
 
-3. Add files to the directory that will be mounted inside the container.
-
-4. Start the docker container
+3. Start the docker container
 
 ```sh
 docker compose up -d
